@@ -1,0 +1,10 @@
+.history
+.vscode
+build
+config
+coverage
+dist
+docs
+node_modules
+scripts
+src

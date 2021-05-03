@@ -1,0 +1,34 @@
+{
+  "name": "apl-doom",
+  "version": "0.0.1",
+  "description": "Doom in WebGL",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "start": "webpack serve --open --config ./webpack.config.js",
+    "build": "webpack --config ./webpack.config.js"
+  },
+  "author": "Andrew Lowndes",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/earcut": "^2.1.1",
+    "@types/gl-matrix": "^2.4.5",
+    "@types/jdataview": "0.0.31",
+    "@types/node": "^15.0.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "ts-loader": "^9.1.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "apl-easy-gl": "^0.4.0",
+    "apl-image-packer": "^1.1.0",
+    "earcut": "^2.2.2",
+    "gl-matrix": "^3.3.0"
+  },
+  "homepage": "https://github.com/andrewlowndes/doom"
+}
